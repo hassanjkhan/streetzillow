@@ -8,7 +8,7 @@ print("✅ Script started...")
 
 # 🔐 Hardcoded credentials for testing only
 EMAIL_FROM = "streetzillow@gmail.com"
-EMAIL_PASSWORD = "lmxtdfbgyfkuqpbj"  
+EMAIL_PASSWORD = "TestingPassword007!" #"lmxtdfbgyfkuqpbj"  
 EMAIL_TO = "streetzillow@gmail.com"  
 
 def scrape_listings():
