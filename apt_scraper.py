@@ -6,10 +6,10 @@ from email.mime.text import MIMEText
 
 print("✅ Script started...")
 
-# 🔐 Hardcoded credentials for testing only
+# 🔒 Hardcoded credentials for testing
 EMAIL_FROM = "streetzillow@gmail.com"
-EMAIL_PASSWORD = "TestingPassword007!" #"lmxtdfbgyfkuqpbj"  
-EMAIL_TO = "streetzillow@gmail.com"  
+EMAIL_PASSWORD = "lmxtdfbgyfkuqpbj"  # Your app password, not regular one
+EMAIL_TO = "streetzillow@gmail.com"
 
 def scrape_listings():
     print("🔍 Scraping listings...")
@@ -18,7 +18,6 @@ def scrape_listings():
     today = datetime.now()
     two_days_ago = today - timedelta(days=2)
 
-    # 🔧 Replace this part with real scraping logic
     print("ℹ️ Using dummy data for now...")
     listings.append({
         "title": "Fake 2BR in East Village",
