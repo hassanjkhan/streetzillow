@@ -1,4 +1,3 @@
-import os
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
@@ -7,9 +6,10 @@ from email.mime.text import MIMEText
 
 print("✅ Script started...")
 
-EMAIL_TO = os.environ["EMAIL_TO"]
-EMAIL_FROM = os.environ["EMAIL_FROM"]
-EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
+# 🔐 Hardcoded credentials for testing only
+EMAIL_FROM = "streetzillow@gmail.com"
+EMAIL_PASSWORD = "lmxtdfbgyfkuqpbj"  
+EMAIL_TO = "streetzillow@gmail.com"  
 
 def scrape_listings():
     print("🔍 Scraping listings...")
